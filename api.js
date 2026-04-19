@@ -60,6 +60,7 @@ async function createProduct (req, res, next) {
  * @param {object} req
  * @param {object} res
  * @param {function} next
+ * //r
  */
 async function editProduct (req, res, next) {
   const change = req.body
