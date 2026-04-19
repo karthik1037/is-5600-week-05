@@ -54,6 +54,7 @@ async function createProduct (req, res, next) {
   const product = await Products.create(req.body)
   res.json(product)
 }
+//Change
 
 /**
  * Edit a product
